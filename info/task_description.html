@@ -1,0 +1,45 @@
+<!-- Describe task in general -->
+
+<p style="float: left; margin: 10px;">
+  <img title="example" src="{{MEDIA}}garland.png" alt="example" style="max-height: 200px"/>
+</p>
+
+<p style="text-align: justify;">
+    You are given a sequence <b>lights</b>, where each integer is a distinct light with its <i>brightness</i>. This value determines how many adjacent positions to both left and right the illumination from that light reaches, in addition to illuminating the position of that light itself. (A light whose brightness is zero will therefore illuminate only itself, but doesn’t have anything to shine on its neighbors). 
+</p> 
+<p style="text-align: justify;">
+    Your task is to turn on as few individual lights as possible so that every position of the entire row is illuminated by at least one light. Since the smallest working subset of lights is not necessarily unique, your function should only return the number of lights needed to illuminate the entire row.
+</p>  
+     
+<!-- Explain input and output values -->
+<p>
+    <strong>Input:</strong> <span translate="repeat">{% if is_js %}Array{% else %}List{% endif %}</span> of integers <span translate="no">({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+    <strong>Output:</strong> Integer <span translate="no">({% if is_js %}number{% else %}int{% endif %})</span>. 
+</p>
+
+
+<p>
+  <strong>Examples:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+  <strong>How it’s used:</strong>
+  <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+  <strong>Preconditions:</strong>
+  <ul>
+  <li><i>both given ints should be between -1000 and 1000</i></li>
+  </ul>
+</p> -->
