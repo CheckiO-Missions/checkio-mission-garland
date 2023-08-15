@@ -1,0 +1,46 @@
+<!-- Describe task in general -->
+
+<p style="float: left; margin: 10px;">
+  <img title="example" src="{{MEDIA}}garland.png" alt="example" style="max-height: 200px"/>
+</p>
+
+<p style="text-align: justify;">
+    Vous disposez d'une séquence <b>lights</b>, où chaque nombre entier représente une lumière distincte avec sa <i>luminosité</i>. Cette valeur détermine le nombre de positions adjacentes à gauche et à droite que l'éclairage de cette lumière atteint, en plus de l'éclairage de la position de cette lumière elle-même. (Une lumière dont la luminosité est nulle n'éclaire donc qu'elle-même, mais n'a rien pour éclairer ses voisins). 
+</p> 
+<p style="text-align: justify;">
+    Votre tâche consiste à allumer le moins de lampes possible afin que chaque position de la rangée entière soit éclairée par au moins une lampe. Étant donné que le plus petit sous-ensemble fonctionnel de lampes n'est pas nécessairement unique, votre fonction ne doit renvoyer que le nombre de lampes nécessaires pour éclairer l'ensemble de la rangée.
+</p>  
+     
+<!-- Explain input and output values -->
+<p>
+   <strong>Entrée:</strong> {% if is_js %}Tableau{% else %}Liste{% endif %} <span>({% if is_js %}Array{% else %}List{% endif %})</span> d'entiers <span>({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Sortie:</strong> Entier <span>({% if is_js %}number{% else %}int{% endif %})</span>. 
+</p>
+
+
+<p>
+  <strong>Exemples:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<p><i>La mission est extraite de <span>Python CCPS 109</span>. Elle est enseignée à <span>Ryerson Chang School of Continuing Education</span> par <a href="https://github.com/ikokkari">Ilkka Kokkarinen</a></i></p>
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+  <strong>How it’s used:</strong>
+  <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+  <strong>Preconditions:</strong>
+  <ul>
+  <li><i>both given ints should be between -1000 and 1000</i></li>
+  </ul>
+</p> -->
