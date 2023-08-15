@@ -1,0 +1,46 @@
+<!-- Describe task in general -->
+
+<p style="float: left; margin: 10px;">
+  <img title="example" src="{{MEDIA}}garland.png" alt="example" style="max-height: 200px"/>
+</p>
+
+<p style="text-align: justify;">
+    Вам задано послідовність <b>lights</b>, де кожне ціле число є окремим світильником зі своєю <i>яскравістю</i>. Це значення визначає, скільки сусідніх позицій ліворуч і праворуч досягає освітлення від цього ліхтаря, на додаток до освітлення позиції самого ліхтаря. (Світло, яскравість якого дорівнює нулю, освітлює лише себе, але не має нічого, що могло б освітити його сусідів). 
+</p> 
+<p style="text-align: justify;">
+    Ваше завдання - увімкнути якомога менше окремих ліхтарів так, щоб кожна позиція всього ряду була освітлена хоча б одним ліхтарем. Оскільки найменша робоча підмножина ліхтарів не обов'язково є унікальною, ваша функція повинна повертати лише кількість ліхтарів, необхідних для освітлення всього ряду.
+</p>  
+     
+<!-- Explain input and output values -->
+<p>
+   <strong>Вхідні дані:</strong> {% if is_js %}Масив{% else %}Список{% endif %} <span>({% if is_js %}Array{% else %}List{% endif %})</span> цілих чисел <span>({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Вивести:</strong> Ціле число <span>({% if is_js %}number{% else %}int{% endif %})</span>. 
+</p>
+
+
+<p>
+  <strong>Приклади:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<p><i>Місія взята з сайту <span>Python CCPS 109</span>. Вона викладається для <span>Ryerson Chang School of Continuing Education</span> за допомогою <a href="https://github.com/ikokkari">Ilkka Kokkarinen</a></i></p>
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+  <strong>How it’s used:</strong>
+  <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+  <strong>Preconditions:</strong>
+  <ul>
+  <li><i>both given ints should be between -1000 and 1000</i></li>
+  </ul>
+</p> -->
