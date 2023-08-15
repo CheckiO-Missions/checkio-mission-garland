@@ -1,0 +1,46 @@
+<!-- Describe task in general -->
+
+<p style="float: left; margin: 10px;">
+  <img title="example" src="{{MEDIA}}garland.png" alt="example" style="max-height: 200px"/>
+</p>
+
+<p style="text-align: justify;">
+    Otrzymują Państwo sekwencję <b>lights</b>, gdzie każda liczba całkowita jest odrębnym światłem i jego <i>jasnością</i>. Wartość ta określa, do ilu sąsiednich pozycji po lewej i prawej stronie dociera oświetlenie z tego światła, oprócz oświetlania samej pozycji tego światła. (Światło, którego jasność wynosi zero, oświetla tylko siebie, ale nie ma nic, co mogłoby oświetlić jego sąsiadów). 
+</p> 
+<p style="text-align: justify;">
+    Państwa zadaniem jest włączenie jak najmniejszej liczby pojedynczych świateł, tak aby każda pozycja w całym rzędzie była oświetlona przez co najmniej jedno światło. Ponieważ najmniejszy działający podzbiór świateł niekoniecznie jest unikalny, funkcja powinna zwracać tylko liczbę świateł potrzebnych do oświetlenia całego rzędu.
+</p>  
+     
+<!-- Explain input and output values -->
+<p>
+   <strong>Dane wejściowe:</strong> {% if is_js %}Tablica{% else %}Lista{% endif %} <span>({% if is_js %}Array{% else %}List{% endif %})</span> liczb całkowitych <span>({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Dane wyjściowe:</strong> Liczba całkowita <span>({% if is_js %}number{% else %}int{% endif %})</span>. 
+</p>
+
+
+<p>
+  <strong>Przykłady:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<p><i>Misja została pobrana z <span>Python CCPS 109</span>. Jest ona nauczana dla <span>Ryerson Chang School of Continuing Education</span> przez <a href="https://github.com/ikokkari">Ilkka Kokkarinen</a></i></p>
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+  <strong>How it’s used:</strong>
+  <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+  <strong>Preconditions:</strong>
+  <ul>
+  <li><i>both given ints should be between -1000 and 1000</i></li>
+  </ul>
+</p> -->
